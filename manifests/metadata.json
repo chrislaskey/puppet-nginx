@@ -1,0 +1,7 @@
+name 'nginx'
+version '1.0.0'
+author 'Chris Laskey'
+summary 'Nginx webserver management for Debian/Ubuntu systems.'
+description 'Nginx webserver management for Debian/Ubuntu systems.'
+license 'MIT License (http://opensource.org/licenses/MIT)'
+project_page 'http://github.com/chrislaskey'
