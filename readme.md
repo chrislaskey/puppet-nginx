@@ -11,13 +11,15 @@ but can be used for Flask as well.
 
 Here is an example with all optional parameters and their default values:
 
-	nginx::gunicorn { "servername.com":
-		servername => $title,
-		gunicorn_port => 9000,
-		nginx_port => 80,
-		ssl => 'false',
-		remove_default_site => 'true',
-	}
+```puppet
+nginx::gunicorn { "servername.com":
+	servername => $title,
+	gunicorn_port => 9000,
+	nginx_port => 80,
+	ssl => 'false',
+	remove_default_site => 'true',
+}
+```
 
 License
 ================================================================================
